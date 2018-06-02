@@ -118,5 +118,10 @@
       }
     }
   },
-  "defaultProject": "diretivas"
+  "defaultProject": "diretivas",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
